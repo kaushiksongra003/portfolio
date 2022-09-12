@@ -1,0 +1,165 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+ }
+ 
+ #bg-color {
+     background-color: rgb(230, 212, 205);
+ }
+ 
+ .bg-coler {
+     background-color: rgba(0, 0, 0, 0.849);
+ }
+ 
+ .container {
+     width: 80%;
+     margin: 0 auto;
+ }
+ 
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .alim-itm {
+     align-items: center;
+ }
+ 
+ .col-lg-12 {
+     width: 100%;
+ }
+ 
+ .heder-text ul li {
+     display: inline-block;
+     color: #fff;
+     margin-left: 40px;
+     padding: 0px 0px 0px 30px;
+     font-size: 20px;
+     color: rgb(255, 115, 0);
+     font-style: oblique;
+     font: bold;
+     margin-right: 20px;
+ }
+ 
+ a:hover {
+     border-bottom: 2px solid white;
+ }
+ 
+ .heder-text a {
+     color: red;
+ }
+ 
+ .text1 h1 {
+     /* margin-left: 785px; */
+     font-size: 50px;
+     color: rgb(251, 114, 2);
+     text-align: center;
+     margin-top: 60px;
+ }
+ 
+ .container {
+     width: 80%;
+     margin: 0 auto;
+ }
+ 
+ h2 {
+     margin-top: 20px;
+     text-align: center;
+     font-size: 35px;
+     color: rgb(255, 115, 0);
+     /* border-bottom: 4px solid black; */
+ }
+ 
+ .heding {
+     background-color: rgb(230, 212, 205);
+ }
+ 
+ .btn {
+     margin-top: 60px;
+     border-bottom: 2px solid black;
+ }
+ 
+ .btn button {
+     width: 120px;
+     height: 30px;
+     background-color: rgb(255, 115, 0);
+     font-size: 20px;
+ }
+ 
+ #bg-color-1 {
+     background-color: rgb(230, 212, 205);
+ }
+ 
+ h4 {
+     margin-top: 30px;
+     font-size: 25px;
+     color: rgb(255, 115, 0);
+ }
+ 
+ p {
+     margin-top: 20px;
+ }
+ 
+ h3 {
+     margin-top: 90px;
+     margin: 40px;
+     font-size: 25px;
+     border-bottom: 2px solid black;
+ }
+ 
+ .container-1 {
+     width: 80%;
+     margin: 0 auto;
+ }
+ 
+ .col-2 {
+     width: 25%;
+ }
+ 
+ .input-r {
+     margin-top: 50px;
+ }
+ 
+ label {
+     font-size: 19px;
+ }
+ 
+ .input-r-1 {
+     margin-top: 115px;
+ }
+ 
+ input {
+     margin: 5.4px;
+     padding: 4px 30px;
+     font-size: 16px;
+ }
+ 
+ .input-l {
+     margin-top: 58px;
+ }
+ 
+ .input-r-2 {
+     margin-top: 122px;
+ }
+ 
+ .btn-5 {
+     margin-top: -125px;
+     margin-left: 800PX;
+     height: 70px;
+ }
+ 
+ .btn-5 button {
+     height: 70px;
+     width: 500px;
+     font-size: 40px;
+     background-color: rgb(251, 114, 2);
+ }
+ 
+ .btn-1 {
+     font-size: 30px;
+     margin-left: 990px;
+     padding: 15px;
+ }

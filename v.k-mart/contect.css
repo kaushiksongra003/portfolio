@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#bg-color {
+    background-color: rgb(230, 212, 205);
+}
+
+.bg-coler {
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alim-itm {
+    align-items: center;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+.heder-text ul li {
+    display: inline-block;
+    color: #fff;
+    margin-left: 40px;
+    padding: 0px 0px 0px 30px;
+    font-size: 20px;
+    color: rgb(255, 115, 0);
+    font-style: oblique;
+    font: bold;
+    margin-right: 20px;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+.heder-text a {
+    color: red;
+}
+
+.text1 h1 {
+    /* margin-left: 785px; */
+    font-size: 50px;
+    color: rgb(251, 114, 2);
+    margin-top: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 115, 0);
+    /* border-bottom: 4px solid black; */
+}
+
+.heding {
+    background-color: rgb(230, 212, 205);
+}
+
+#bg-color-1 {
+    background-color: rgb(230, 212, 205);
+}
+
+h3 {
+    margin-top: 90px;
+    margin: 40px;
+    font-size: 25px;
+}
+
+.container-1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.location a i {
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 260px;
+}
+
+p {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+h5 {
+    font-size: 25px;
+    margin-top: 17px;
+    margin-left: 300px;
+}
+
+input {
+    margin-left: 100px;
+    height: 50px;
+    width: 450px;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.input input {
+    height: 150px;
+}
+
+.btn button {
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 270px;
+    background-color: rgb(250, 88, 28);
+}
+
+.btn-1 {
+    font-size: 30px;
+    margin-left: 630px;
+    padding: 15px;
+    margin-top: 50px;
+}

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* list-style: none; */
+}
+
+#bg-color {
+    background-color: rgb(230, 212, 205);
+}
+
+.bg-coler {
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 100%;
+}
+
+.alim-itm {
+    align-items: center;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+.heder-text ul li {
+    display: inline-block;
+    color: #fff;
+    margin-left: 40px;
+    padding: 0px 0px 0px 30px;
+    font-size: 20px;
+    color: rgb(255, 115, 0);
+    font-style: oblique;
+    font: bold;
+    margin-right: 20px;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+.heder-text a {
+    color: red;
+}
+
+.text1 h1 {
+    /* margin-left: 785px; */
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(251, 114, 2);
+    text-align: center;
+}
+
+.heding h3 {
+    /* margin-left: 690px; */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(251, 114, 2);
+    background-color: rgb(230, 212, 205);
+}
+
+p {
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+.container-1 {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(230, 212, 205);
+}
+
+.kk img {
+    width: 250px;
+    margin-left: 1220px;
+    margin-top: -315px;
+}
+
+h4 {
+    margin-left: 990px;
+    font-size: 20px;
+}
+
+.kk-1 img {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.kk-2 h5 {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(250, 67, 0);
+}
+
+.kk-2 p {
+    text-align: center;
+}
+
+.kk-3 h6 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(250, 67, 0);
+}
+
+.btn-1 {
+    font-size: 30px;
+    margin-left: 650px;
+    padding: 15px;
+    margin-top: 60px;
+}

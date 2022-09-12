@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#bg-color {
+    background-color: rgb(230, 212, 205);
+}
+
+.bg-coler {
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alim-itm {
+    align-items: center;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+.heder-text ul li {
+    display: inline-block;
+    color: #fff;
+    margin-left: 40px;
+    padding: 0px 0px 0px 30px;
+    font-size: 20px;
+    color: rgb(255, 115, 0);
+    font-style: oblique;
+    font: bold;
+    margin-right: 20px;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+.heder-text a {
+    color: red;
+}
+
+.text1 h1 {
+    /* margin-left: 785px; */
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(251, 114, 2);
+    text-align: center;
+}
+
+.heding h3 {
+    /* margin-left: 690px; */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(251, 114, 2);
+    background-color: rgb(230, 212, 205);
+}
+
+.container-1 {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(230, 212, 205);
+}
+
+.col-lg-6 {
+    width: 33.33%;
+}
+
+.text-1 {
+    text-align: center;
+}
+
+.text-1 img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 3px 5px 4px rgb(116, 99, 94);
+}
+
+.card:hover {
+    box-shadow: 20px 10px 30px rgb(116, 99, 94);
+}
+
+button {
+    width: 100px;
+    height: 29px;
+    color: rgb(243, 243, 243);
+    background-color: black;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.heder h4 {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(251, 114, 2);
+}
+
+.input-r {
+    margin: 30px 20px 0 30px;
+    float: right;
+}
+
+.input-l {
+    padding: 105px 0 0 0;
+    margin: 30px;
+    float: left;
+}
+
+input {
+    padding: 20px 60px 30px 0;
+    font-size: 30px;
+}
+
+#bg-img {
+    background-color: rgb(230, 212, 205);
+}
+
+.btn {
+    margin-top: 50px;
+    text-align: center;
+    height: 70px;
+}
+
+.btn button {
+    height: 100px;
+    width: 200px;
+    font-size: 40px;
+    background-color: rgb(251, 114, 2);
+}
+
+.btn-1 {
+    font-size: 30px;
+    margin-left: 640px;
+    padding: 50px;
+}
