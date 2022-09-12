@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial;
+}
+
+.bg-color-1 {
+    background: linear-gradient( 280deg, #fbfc47, #2ffe41);
+}
+
+.bg-color-2 {
+    background: linear-gradient(280deg, #70e1f5, #ffd194);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.align-iten {
+    align-items: center;
+}
+
+.herar-text {
+    margin: 50px auto;
+}
+
+.herar-text a {
+    color: black;
+    font-weight: bold;
+}
+
+.herar-text ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    margin-top: 4px;
+}
+
+.herar-text ul li a:hover::after {
+    width: 100%;
+}
+
+.herar-text ul li {
+    padding: 0 15px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.logo {
+    color: wheat;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.logo p {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 0 0 15px;
+}
+
+.text-1 {
+    margin-top: 130px;
+    width: 85%;
+}
+
+.text-1 h1 {
+    font-size: 100px;
+}
+
+.text-1 h3 {
+    font-size: 35px;
+}
+
+.text-1 hr {
+    margin: 100px 0 100px 0;
+}
+
+.text-1 p {
+    width: 45%;
+    line-height: 24px;
+    margin-bottom: 100px;
+}
+
+.img-1 img {
+    position: absolute;
+    width: 18%;
+    top: 40px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.rel {
+    position: relative;
+}
+
+.col-1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-2 p {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    margin: 70px 0 50px 0;
+}
+
+.col-lg-4 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-2 img {
+    border-radius: 20px;
+}
+
+.img-2 {
+    text-align: center;
+}
+
+.img-2 ul li {
+    display: inline-block;
+    padding: 0 80px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.button-1 button {
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.button-1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+
+.text-3 {
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+.text-3 h3 {
+    font-size: 100px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 180px 0 80px 0;
+}
+
+.text-3 p {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: cadetblue;
+    line-height: 65px;
+}
+
+.text-4 {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-4 h3 {
+    margin-top: 180px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: cadetblue;
+    text-align: left;
+}
+
+.text-4 p {
+    width: 70%;
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.img-3 {
+    text-align: center;
+}
+
+.img-3 img {
+    width: 90%;
+    margin: 150px 0 150px 0;
+}
+
+.col-lg-8 {
+    width: 33.33%;
+}
+
+.img-4 {
+    text-align: center;
+}
+
+.img-4 img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-4 h3 {
+    font-size: 25px;
+    color: cadetblue;
+    padding: 50px 0 70px 0;
+}
+
+.img-5 {
+    text-align: center;
+    margin: 70px;
+}
+
+.img-5 img {
+    border-radius: 20px;
+}
+
+.text-5 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-5 h3 {
+    margin-top: 100px;
+    font-size: 100px;
+    text-align: left;
+}
+
+.text-5 p {
+    width: 80%;
+    line-height: 24px;
+    margin: 50px 0 30px 0;
+}
+
+.text-5 button {
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+    width: 150px;
+    margin-bottom: 70px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.text-6 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text-6 p {
+    color: cadetblue;
+    font-size: 30px;
+    word-spacing: 2px;
+}
+
+.text-6 h3 {
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.img-6 img {
+    width: 60%;
+    border-radius: 20px;
+}
+
+.img-6 {
+    text-align: center;
+}
+
+.img-6 h3 {
+    margin: 20px 0 50px 0;
+    color: cadetblue;
+    font-size: 24px;
+}
+
+.bg-color-3 {
+    background-color: black;
+    color: white;
+}
+
+.col-lg-12 {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.text-7 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: -moz-center;
+}
+
+.text-7 h3 {
+    text-align: left;
+    width: 50%;
+    font-size: 24px;
+    padding: 60px 0 20px 0;
+}
+
+.text-7 p {
+    text-align: left;
+    width: 50%;
+    line-height: 35px;
+}
+
+.text-8 h3 {
+    margin-top: 50px;
+    color: teal;
+    font-size: 25px;
+    text-align: center;
+}
