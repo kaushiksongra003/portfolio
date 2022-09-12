@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digital Form</title>
+</head>
+
+<body style="background-color: rgba(134, 134, 134, 0.356);">
+    <div class="container">
+        <h1 style="text-align: center;">Account Application Form.</h1>
+        <hr>
+        <form>
+            <fieldset>
+                <h2>Basic Details</h2>
+                <hr>
+                <label>
+                        Title:
+                        <br>
+                        <select>
+                            <option value="select" disabled selected>Select Title</option>
+
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Miss">Miss</option>
+                            <option value="Ms">Ms</option>
+                            <option value="Dr">Dr</option>
+                            <option value="Prof">Prof</option>
+                        </select>
+                        <br><br>
+                    </label>
+                <label for="firstname"> First Name:
+
+                        <input name="firstname" id="firstname" type="text" placeholder="First name...">
+                    </label>
+                <br><br>
+                <label for="middlename">
+                        Middle Names (If Applicable):
+                        <input name="middlename" id="middlename" type="text" placeholder="Middle names...">
+                    </label>
+                <br><br>
+                <label for="lastname">
+                        Last Name:
+                        <input name="lastname" id="lastname" type="text" placeholder="Last name...">
+                    </label>
+                <br><br>
+
+                <label for="phone-number">
+                        Phone Number:
+                        <input type="tel" id="phone" name="phone" pattern='^\+?\d{10,12}'
+                            placeholder="Example: 01925999111">
+                    </label>
+                <br><br>
+
+                <label for="email-address">
+                        Email:
+                        <input id="email-address" type="email" placeholder="Your email address...">
+                    </label>
+                <br><br>
+
+                <label for="DOB">
+                        Date of Birth:
+                        <input type="date" name="DOB" id="DOB">
+                    </label>
+                <br><br>
+
+                <label for="accounttype">
+                        What type of account are you applying for?:
+
+                        <select id="account-select">
+                            <option value="select" disabled selected>Choose Account</option>
+                            <option value="basic-current">Basic Current Account</option>
+                            <option value="premium-current">Premium Current Account</option>
+                            <option value="instant-saver">Instant Access Savings Account</option>
+                            <option value="lifetime-isa">Lifetime ISA</option>
+                            <option value="help-to-buy">Help to Buy ISA</option>
+                        </select>
+                    </label>
+                <br><br>
+                <button type="button">Continue</button>
+            </fieldset>
+
+            <fieldset>
+                <h2>Address History</h2>
+                <hr>
+                <h3>Are you currently a UK resident?</h3>
+                <label for="yes" class="radio-label">
+                        <input name="UK-res" value="yes" id="yes" type="radio">Yes</input>
+                    </label>
+                <label for="no">
+                        <input name="UK-res" value="no" id="no" type="radio">No</input>
+                    </label>
+                <p>We're really sorry. We currently only offer banking services to UK residents.</p>
+                <div>
+                    <h3>Current Address</h3>
+                    <label for="line1">
+                            Address line 1:
+                            <input type="text">
+                        </label>
+                    <label for="line2">
+                            Address line 2
+                            <input type="text">
+                        </label>
+                    <label for="town-city">
+                            Town/City:
+                            <input type="text">
+                        </label>
+                    <label for="county">
+                            County
+                            <input type="text">
+                        </label>
+                    <label for="postcode">
+                            Post Code:
+                            <input type="text" maxlength="8">
+                        </label>
+                    <h3>Have you lived at any other address within the last 5 years?</h3>
+                    <label for="yes-prev">
+                            <input name="UK-res" value="yes" id="yes-prev" type="radio">Yes</input>
+                        </label>
+                    <label for="no-prev">
+                            <input name="UK-res" value="no" id="no-prev" type="radio">No</input>
+                        </label>
+                </div>
+                <div>
+                    <h3>Previous Address</h3>
+                    <label for="line1">
+                            Address line 1:
+                            <input type="text">
+                        </label>
+                    <label for="line2">
+                            Address line 2
+                            <input type="text">
+                        </label>
+                    <label for="town-city">
+                            Town/City:
+                            <input type="text">
+                        </label>
+                    <label for="county">
+                            County
+                            <input type="text">
+                        </label>
+                    <label for="postcode">
+                            Post Code:
+                            <input type="text" maxlength="8">
+                        </label>
+                    <br><br>
+                </div>
+                <button type="button">Continue</button>
+            </fieldset>
+
+            <fieldset>
+                <h2>Your Consent</h2>
+                <hr>
+                <label for="credit-search">
+                        Tick the box below to allow the bank to use the details you have provided to conduct a credit
+                        search if necessary.
+                        <br>
+                        <input type="checkbox" id="credit-click" name="credit-search"><br>
+                    </label>
+                <label for="info-request">
+                        Tick the box below to allow the bank to contact you via email if further information is needed
+                        to progress your application.
+                        <br>
+                        <input type="checkbox" name="info-request"><br>
+                    </label>
+                <input id="submit-app" type="submit" name="submit" value="Submit Application">
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
